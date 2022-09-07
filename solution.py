@@ -20,12 +20,12 @@ def welcome_assignment_answers(question):
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
-        answer = 4 #transport/host-to-host
+        answer = 1 #application layer -- 5 if going bottom up
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
-        answer = 2 #internet layer
+        answer = 3 #network layer
     else:
         answer = "that's not a question we were prepared for :)"
-    print(question)
+    # print(question)
     return(answer)
 # Complete all the questions.
 
